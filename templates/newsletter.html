@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        body{
+            font-family: "Arial";
+            background: white;
+            padding: 20px;
+        }
+        .container{
+            border-radius: 10px;
+            background: white;
+            padding: 20px;
+        }
+        h1{
+            color: #0066CC;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{subject}}</h1>
+        <p>Hello {{name}}</p>
+        <p>{{body}}</p>
+        <hr>
+        <h3>Latest Updates</h3>
+        <ul>
+            <li>New Features</li>
+            <li>Project Improvement</li>
+            <li>Python Tips</li>
+        </ul>
+        <p>Thank You for Reading!</p>
+    </div>
+</body>
+</html>

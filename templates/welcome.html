@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            padding: 20px;
+        }
+        .container{
+            max-width: 600px;
+            margin:auto;
+            background-color: white;
+            padding:25px;
+            border-radius: 10px;
+            border:1px solid white;
+        }
+        h1{
+            color:#0078d4;
+        }
+        p{
+            font-size: 16px;
+            color: #333;
+        }
+        .footer{
+            margin: top 25px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{subject}}</h1>
+        <p>Hello {{name}},</p>
+        <p>{{body}}</p>
+        <div class="footer">
+            Regards,<br>
+            Python Email Sender
+        </div>
+    </div>
+</body>
+</html>
